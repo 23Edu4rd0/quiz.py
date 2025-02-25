@@ -8,7 +8,7 @@ while quiz.asked_question < 10:
     user_answer = quiz.get_question()
     
     #create object verify that sees if the answer is correct or not
-    verify = AnswerChecker(user_answer,quiz.number_of_question)
+    verify = AnswerChecker(user_answer, quiz.number_of_question)
     
     # verify if the answer is correct
     is_correct = verify.check_answer()

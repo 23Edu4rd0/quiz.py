@@ -8,7 +8,6 @@ class AnswerChecker:
         
     def check_answer(self):
         if self.user_response == self.correct_option:
-            
             print(f"You got it right!")
             return True
         else:
